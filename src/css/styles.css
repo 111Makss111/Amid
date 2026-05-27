@@ -10,4 +10,9 @@
 
 /* Sections style */
 @import url('./header.css');
+@import url('./hero.css');
+@import url('./company.css');
+@import url('./services.css');
+@import url('./achievements.css');
+@import url('./blog.css');
 @import url('./footer.css');
