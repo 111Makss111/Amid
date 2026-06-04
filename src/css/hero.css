@@ -1,0 +1,111 @@
+.hero {
+}
+.hero-container {
+  background-color: #e9fbf9;
+  padding: 50px 60px;
+}
+.hero-wrap-content {
+}
+.hero-wrap-content-text {
+  width: 90px;
+  height: 38px;
+  border: 1px solid #f2faf9;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.1em;
+  color: #ff6107;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  margin-bottom: 16px;
+}
+.hero-wrap-content-title {
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 1.25;
+  color: #021d1a;
+  margin-bottom: 16px;
+}
+.hero-wrap-content-title-text {
+  font-size: 18px;
+  line-height: 1.67;
+  color: #464646;
+  margin-bottom: 26px;
+}
+.hero-wrap-btn {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 12px;
+}
+.hero-wrap-content-btn-start {
+  width: 180px;
+  height: 57px;
+  background-color: #ff823b;
+  border-radius: 32px;
+
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-wrap-content-btn {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  color: #ff823b;
+  display: flex;
+}
+.hero-wrap-content-btn-svg {
+  width: 39px;
+  height: 39px;
+  fill: #ff823b;
+  padding: 14px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.hero-wrapper {
+  position: relative;
+}
+.hero-wrapper-img {
+  position: absolute;
+}
+.hero-wrapper-list {
+  border-radius: 20px;
+  box-shadow: 0 3px 84px 0 rgba(142, 199, 192, 0.3);
+  background-color: #fff;
+  opacity: 0.9;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.hero-wrapper-item {
+}
+.hero-wrapper-btn {
+  background-color: #ff6107;
+  border-radius: 14px;
+  width: 74px;
+  height: 74px;
+}
+.hero-wrapper-svg {
+  width: 22px;
+  height: 22px;
+  fill: #fff;
+}
+@media only screen and (min-width: 768px) {
+  .hero-container {
+    display: flex;
+  }
+  .hero-wrapper {
+  }
+}
+@media only screen and (min-width: 1440px) {
+}
